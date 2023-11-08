@@ -1,0 +1,13 @@
+#!/bin/sh
+set -efu
+
+pys="$(py3versions -s 2> /dev/null)"
+
+cp -a lazy_loader/tests "$AUTOPKGTEST_TMP"
+cd "$AUTOPKGTEST_TMP"
+
+for py in $pys; do
+	echo "=== $py ==="
+	$py -m pytest --verbose tests 2>&1
+done
+

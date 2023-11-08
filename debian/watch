@@ -1,0 +1,4 @@
+version=4
+opts="mode=git,pgpmode=gittag" \
+https://github.com/scientific-python/lazy_loader.git \
+refs/tags/v([\d\.]+)
