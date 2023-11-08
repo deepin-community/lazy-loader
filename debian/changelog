@@ -1,5 +1,23 @@
-template-repository (1.0-1) unstable; urgency=medium
+lazy-loader (0.3-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream version 0.3
+  * Add gitlab-ci file
+  * Set std-ver to 4.6.2
+  * Update d/copyright
+  * Update description of d/control
+  * Add 'pgpmode=gittag' to d/watch and add upstream key
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Bo YU <tsu.yubo@gmail.com>  Sat, 12 Aug 2023 07:06:38 +0000
+
+lazy-loader (0.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Source only upload. No changes.
+
+ -- Louis-Philippe Véronneau <pollo@debian.org>  Tue, 01 Nov 2022 13:19:22 -0400
+
+lazy-loader (0.1-1) unstable; urgency=low
+
+  * Initial release. Closes: #1021619
+
+ -- Bo YU <tsu.yubo@gmail.com>  Tue, 25 Oct 2022 10:30:53 -0400
